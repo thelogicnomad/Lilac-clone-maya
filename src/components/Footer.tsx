@@ -122,7 +122,7 @@ export default function Footer() {
           </div>
 
           <p className="text-ivory/30 text-xs font-light">
-            &copy; 2025 Dr. Maya Reynolds, PsyD. All rights reserved.
+            &copy; 2026 Dr. Maya Reynolds, PsyD. All rights reserved.
           </p>
         </div>
       </div>
