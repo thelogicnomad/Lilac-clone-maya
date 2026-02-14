@@ -5,6 +5,9 @@ import './globals.css'
 export const metadata: Metadata = {
   title: 'Dr. Maya Reynolds, PsyD | Anxiety & Trauma Therapist in Santa Monica, CA',
   description: 'Licensed clinical psychologist in Santa Monica offering therapy for anxiety, trauma, burnout, and perfectionism. In-person and telehealth sessions for adults in California.',
+  icons: {
+    icon: '/favicon.ico',
+  },
 }
 
 export default function RootLayout({

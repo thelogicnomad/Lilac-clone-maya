@@ -147,18 +147,14 @@ export default function HeroSection() {
         transition={{ delay: 1.8, duration: 1 }}
         className="absolute bottom-8 left-1/2 -translate-x-1/2 z-10"
       >
+
         <motion.div
-          animate={{ y: [0, 8, 0] }}
+          animate={{ y: [0, 6, 0], opacity: [1, 0.3, 1] }}
           transition={{ duration: 2, repeat: Infinity, ease: 'easeInOut' }}
-          className="w-5 h-8 border-2 border-primary/30 rounded-full flex justify-center pt-1.5"
-        >
-          <motion.div
-            animate={{ y: [0, 6, 0], opacity: [1, 0.3, 1] }}
-            transition={{ duration: 2, repeat: Infinity, ease: 'easeInOut' }}
-            className="w-1 h-1 bg-primary/50 rounded-full"
-          />
-        </motion.div>
+          className="w-1 h-1 bg-primary/50 rounded-full"
+        />
       </motion.div>
+
     </section>
   )
 }
